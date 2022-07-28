@@ -1,1 +1,23 @@
 @import url(reset.css);
+
+.navigation {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+}
+
+.navigation-list-about {
+    display: flex;
+}
+
+.navigation-list-projects {
+    display: flex;
+}
+
+.navigation-list-management {
+    display: flex;
+}
+
+.news {
+    display: flex;
+}
